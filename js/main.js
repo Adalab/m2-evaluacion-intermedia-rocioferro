@@ -1,11 +1,10 @@
 'use strict';
 
-// Elementos
+
 let counter = document.querySelector('.counter');
 const input = document.querySelector('.input'); 
 const btn = document.querySelector('.btn');
 const clue = document.querySelector('.paragraph');
-
 
 
 function getRandomNumber(max) {
@@ -14,7 +13,7 @@ function getRandomNumber(max) {
 
 const randomNum = getRandomNumber(100);
 
-// Función
+
 function readNumber (){
     const yourNumber = input.value;
     console.log(yourNumber); 
@@ -33,5 +32,4 @@ function readNumber (){
 }
 
 
-// Listener
 btn.addEventListener('click',readNumber)
