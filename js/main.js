@@ -10,9 +10,9 @@ const clue = document.querySelector('.paragraph');
 
 
 // Función
-function readNumber (event){
-    const value = input.value
-    return console.log(event.currentTarget.value); 
+function readNumber (){
+    const value = input.value;
+    return console.log(value); 
 }
 
 
