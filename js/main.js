@@ -21,7 +21,7 @@ let countNumber = 0;
  }
  
 function readNumber() {
-    const yourNumber = input.value;
+    const yourNumber = parseInt(input.value);
     addCounter();
     console.log(randomNum);
     if (yourNumber < randomNum) {
